@@ -1,0 +1,33 @@
+# version: "3"
+
+# services:
+#   database_Service:
+#     image: mysql:latest
+#     restart: on-failure
+#     container_name: database_Service
+#     environment:
+#       MYSQL_ROOT_PASSWORD: password
+#     ports:
+#       - "5430:5430"
+#     volumes:
+#        - ./my-database.sql:/docker-entrypoint-initdb.d/my-database.sql
+
+#   app_service:
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     container_name: app_service
+#     restart: on-failure
+#     ports:
+#       - "8080:80"
+#     depends_on:
+#       - database_Service
+#     volumes:
+#       - .:/var/www/html
+  
+# volumes:
+#   pgdata:
+
+
+  
+
